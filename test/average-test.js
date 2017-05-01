@@ -11,4 +11,9 @@ describe('return handrolled array methods', function() {
     var array = [2,2,2]
     assert.equal(arrayMean(array), 2);
   })
+
+  it('give mean', function() {
+    var array = [2,2,2]
+    assert.equal(arrayMean(array), 2);
+  })
 })
